@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Window window = new Window(500,500);
+        Window window = new Window(300,300);
         window.init();
         int[][] maze;//Mazegenerator.newMaze(81,81);
         //Solver.solveMaze(maze, 0, 1, maze.length - 1, maze[0].length - 2);
